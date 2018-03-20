@@ -3,6 +3,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 @interface CppWrapper : NSObject
-    -(int)testInt;
+    -(int)getInt;
+    -(NSString*)getString;
 @end
 NS_ASSUME_NONNULL_END

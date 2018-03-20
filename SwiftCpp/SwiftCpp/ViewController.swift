@@ -14,10 +14,13 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let cpp = CppWrapper()
-        let int = cpp.testInt()
+        let cppWrapper = CppWrapper()
+        // get int
+        let int = cppWrapper.getInt()
         os_log("%d", int)
-        // Do any additional setup after loading the view.
+        // get string
+        let string = cppWrapper.getString();
+        os_log("%@", string);
     }
 
     override var representedObject: Any? {

@@ -1,7 +1,7 @@
 
 #include "CppInterface.h"
 
-std::string string = "string";
+std::string string = "stringggg";
 
 int CppInterface::getInt() const {
     return 19;

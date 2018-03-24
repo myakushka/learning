@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30B0F6EE356FDEE393C0FB7E /* CppInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30B0F86C5D32C32F09C808EB /* CppInterface.cpp */; };
 		FE0A017E205E7BD90027117B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0A017D205E7BD90027117B /* AppDelegate.swift */; };
 		FE0A0180205E7BD90027117B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0A017F205E7BD90027117B /* ViewController.swift */; };
 		FE0A0182205E7BD90027117B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0A0181205E7BD90027117B /* Assets.xcassets */; };
@@ -16,8 +15,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		30B0F8274E0477DC2730983A /* CppInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CppInterface.h; sourceTree = "<group>"; };
-		30B0F86C5D32C32F09C808EB /* CppInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CppInterface.cpp; sourceTree = "<group>"; };
 		FE0A017A205E7BD90027117B /* SwiftCpp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCpp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0A017D205E7BD90027117B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE0A017F205E7BD90027117B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,21 +38,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		30B0F9BDB02A1472F307184F /* Cpp */ = {
-			isa = PBXGroup;
-			children = (
-				30B0F8274E0477DC2730983A /* CppInterface.h */,
-				30B0F86C5D32C32F09C808EB /* CppInterface.cpp */,
-			);
-			path = Cpp;
-			sourceTree = "<group>";
-		};
 		FE0A0171205E7BD90027117B = {
 			isa = PBXGroup;
 			children = (
 				FE0A017C205E7BD90027117B /* SwiftCpp */,
 				FE0A017B205E7BD90027117B /* Products */,
-				30B0F9BDB02A1472F307184F /* Cpp */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,7 +145,6 @@
 				FE0A0190205E844B0027117B /* CppWrapper.mm in Sources */,
 				FE0A0180205E7BD90027117B /* ViewController.swift in Sources */,
 				FE0A017E205E7BD90027117B /* AppDelegate.swift in Sources */,
-				30B0F6EE356FDEE393C0FB7E /* CppInterface.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

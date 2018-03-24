@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30B0F0C59815C8569F22C3D7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 30B0F4D9D9954F6B4017472D /* README.md */; };
 		30B0FCB571D70E8072B683FA /* CppInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30B0F6AB6601FB7EAF004880 /* CppInterface.cpp */; };
 		FE0A017E205E7BD90027117B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0A017D205E7BD90027117B /* AppDelegate.swift */; };
 		FE0A0180205E7BD90027117B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0A017F205E7BD90027117B /* ViewController.swift */; };
@@ -17,7 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		30B0F4D9D9954F6B4017472D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		30B0F6AB6601FB7EAF004880 /* CppInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CppInterface.cpp; sourceTree = "<group>"; };
 		30B0F7FBC30682A08B03AAF3 /* CppInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CppInterface.h; sourceTree = "<group>"; };
 		FE0A017A205E7BD90027117B /* SwiftCpp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCpp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,7 +44,6 @@
 		30B0FCB89F243E21EF414853 /* Cpp */ = {
 			isa = PBXGroup;
 			children = (
-				30B0F4D9D9954F6B4017472D /* README.md */,
 				30B0F7FBC30682A08B03AAF3 /* CppInterface.h */,
 				30B0F6AB6601FB7EAF004880 /* CppInterface.cpp */,
 			);
@@ -161,7 +158,6 @@
 				FE0A0190205E844B0027117B /* CppWrapper.mm in Sources */,
 				FE0A0180205E7BD90027117B /* ViewController.swift in Sources */,
 				FE0A017E205E7BD90027117B /* AppDelegate.swift in Sources */,
-				30B0F0C59815C8569F22C3D7 /* README.md in Sources */,
 				30B0FCB571D70E8072B683FA /* CppInterface.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

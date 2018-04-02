@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9510922f-c3c1-4b75-8fc3-4c15908e611a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/SwiftCpp.xcodeproj/project.xcworkspace/xcuserdata/myakushka.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/SwiftCpp.xcodeproj/project.xcworkspace/xcuserdata/myakushka.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ViewController.swift" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ViewController.swift" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SwiftCpp/ViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="435">
+              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.git/config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -31,6 +40,13 @@
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.git/config" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1920" />
@@ -94,11 +110,12 @@
       <workItem from="1522677527778" duration="491000" />
       <workItem from="1522678180723" duration="148000" />
       <workItem from="1522678416138" duration="524000" />
+      <workItem from="1522679117762" duration="349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1163000" />
+    <option name="totallyTimeSpent" value="1512000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -113,17 +130,16 @@
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" anchor="right" id="TODO" order="11" visible="true" weight="0.32912058" />
-      <window_info anchor="right" id="Messages" order="10" weight="0.32912058" />
-      <window_info anchor="right" id="Palette&#9;" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="3" />
-      <window_info anchor="right" id="Version Control" order="7" weight="0.32912058" />
-      <window_info anchor="right" id="Terminal" order="9" weight="0.32964718" />
       <window_info id="Designer" order="0" />
       <window_info anchor="right" content_ui="combo" id="Project" order="4" weight="0.24223275" />
+      <window_info active="true" anchor="right" id="TODO" order="11" visible="true" weight="0.32912058" />
+      <window_info anchor="right" id="Palette&#9;" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="right" id="Version Control" order="7" weight="0.32912058" />
       <window_info anchor="right" id="Structure" order="6" side_tool="true" weight="0.24960506" />
+      <window_info anchor="right" id="Terminal" order="9" weight="0.32964718" />
       <window_info anchor="right" id="Debug" order="8" weight="0.39968404" />
       <window_info anchor="right" id="Favorites" order="5" side_tool="true" weight="0.32960597" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -132,6 +148,7 @@
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Messages" order="10" weight="0.32912058" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -144,6 +161,13 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SwiftCpp/ViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SwiftCpp/ViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -160,10 +184,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SwiftCpp/ViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="435">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.git/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ios/.git/config">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

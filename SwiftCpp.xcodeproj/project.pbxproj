@@ -296,7 +296,7 @@
 				CODE_SIGN_ENTITLEMENTS = SwiftCpp/SwiftCpp.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = XE3WYMJST4;
+				DEVELOPMENT_TEAM = RJP45NES99;
 				INFOPLIST_FILE = SwiftCpp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.myakushka.SwiftCpp;
@@ -316,7 +316,7 @@
 				CODE_SIGN_ENTITLEMENTS = SwiftCpp/SwiftCpp.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = XE3WYMJST4;
+				DEVELOPMENT_TEAM = RJP45NES99;
 				INFOPLIST_FILE = SwiftCpp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.myakushka.SwiftCpp;

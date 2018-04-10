@@ -4,7 +4,8 @@
 
 #include <string>
 
-class StudyUnitModel;
+class WordModel;
+class StudySessionModel;
 class LocaleConverter;
 
 class CppFacade
@@ -20,10 +21,19 @@ public:
                  std::string translateLocale,
                  std::string translateWord);
     int getNewWordsCount() const;
+    bool isStudySessionActive() const;
+    int getStudySessionWordCount() const;
+    int getStudySessionBeingWordIndex() const;
+    std::string getStudySessionBeingWordOriginalString() const;
+    std::string getStudySessionBeingWordTranslateString() const;
+
+    void beingWordStudy();
+    void beingWordPass();
 
 private:
     CppFacade();
-    std::shared_ptr<StudyUnitModel> studyUnitModel;
+    std::shared_ptr<WordModel> wordModel;
+    std::shared_ptr<StudySessionModel> studySessionModel;
     std::shared_ptr<LocaleConverter> localeConvertor;
 };
 

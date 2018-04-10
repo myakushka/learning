@@ -1,9 +1,11 @@
 
 #include <memory>
 #include "CppFacade.h"
-#include "StudyUnitModel.h"
-#include "StudyUnit.h"
+#include "Word.h"
+#include "WordModel.h"
+#include "StudySessionModel.h"
 #include "LocaleConverter.h"
+#include "Config.h"
 
 CppFacade& CppFacade::getCppFacadeInstance()
 {
@@ -12,9 +14,12 @@ CppFacade& CppFacade::getCppFacadeInstance()
 }
 
 CppFacade::CppFacade() :
-        studyUnitModel(std::make_shared<StudyUnitModel>()),
+        wordModel(std::make_shared<WordModel>()),
+        studySessionModel(std::make_shared<StudySessionModel>()),
         localeConvertor(std::make_shared<LocaleConverter>())
 {
+    auto config = std::make_shared<Config>();
+    wordModel->initializeWithConfig(config);
 }
 
 void CppFacade::addWord(std::string originalLocale,
@@ -27,10 +32,11 @@ void CppFacade::addWord(std::string originalLocale,
             localeConvertor->convert(originalLocale),
             localeConvertor->convert(translateLocale)
     };
-    auto studyUnit = std::make_shared<StudyUnit>(fromToLocale, originalWord, translateWord);
+    auto studyUnit = std::make_shared<Word>(fromToLocale, originalWord, translateWord);
+    wordModel->addWord(studyUnit);
 }
 
 int CppFacade::getNewWordsCount() const
 {
-    return 0;
+    return wordModel->getNeededToStudyWordCount();
 }

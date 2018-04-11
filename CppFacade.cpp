@@ -15,7 +15,7 @@ CppFacade& CppFacade::getCppFacadeInstance()
 
 CppFacade::CppFacade() :
         wordModel(std::make_shared<WordModel>()),
-        studySessionModel(std::make_shared<StudySessionModel>()),
+        studySessionModel(std::make_shared<StudySessionModel>(wordModel)),
         localeConvertor(std::make_shared<LocaleConverter>())
 {
     auto config = std::make_shared<Config>();

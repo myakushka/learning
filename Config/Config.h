@@ -8,7 +8,7 @@ struct Config
 {
     double highLevelRating = 100;
     double studyRating = 20;
-    double cooldownTime = 1000;
+    long long cooldownTime = 3*60*60;
 };
 
 #endif //LEARNING_IOS_CONFIG_H

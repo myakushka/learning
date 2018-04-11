@@ -18,31 +18,37 @@ void WordModel::addWord(std::shared_ptr<Word> word)
 
 int WordModel::getNeededToStudyWordCount() const
 {
-    auto count = std::count_if(wordVector.begin(),
-                               wordVector.end(),
-                               &WordModel::verifyingNeedForStudyWord);
-    return static_cast<int>(count);
+    int count = 0;
+    for (auto word : wordVector)
+        count += verifyingNeedForStudyWord(word);
+    return count;
 }
 
 std::vector<std::shared_ptr<Word>> WordModel::getWordPackForStudy() const
 {
     std::vector<std::shared_ptr<Word>> wordPack = {};
-    std::copy_if(wordVector.begin(),
-                 wordVector.end(),
-                 wordPack.begin(),
-                 &WordModel::verifyingNeedForStudyWord);
+    for (auto word : wordVector)
+    {
+        if (verifyingNeedForStudyWord(word))
+        {
+            wordPack.push_back(word);
+        }
+    }
     return wordPack;
 }
 
 bool WordModel::verifyingNeedForStudyWord(std::shared_ptr<Word> word) const
 {
+    using namespace std::chrono;
     bool isRatingLow = word->studyRating < config->highLevelRating;
-    bool isInCooldown = word->lastStudyTime < std::chrono::system_clock::now() + config->cooldownTime;
+    auto nexStudyTime = word->lastStudyTime + seconds(config->cooldownTime);
+    bool isInCooldown = nexStudyTime > time_point_cast<seconds>(system_clock::now());
     return isRatingLow && isInCooldown;
 }
 
 void WordModel::studyWord(std::shared_ptr<Word> word)
 {
+    using namespace std::chrono;
     word->studyRating += config->studyRating;
-    word->lastStudyTime = std::chrono::system_clock::now();
+    word->lastStudyTime = time_point_cast<seconds>(system_clock::now());
 }

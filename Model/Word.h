@@ -7,6 +7,8 @@
 #include <chrono>
 #include "Locale.h"
 
+using namespace std::chrono;
+
 class Word
 {
 public:
@@ -17,7 +19,7 @@ public:
     std::string original;
     std::string translate;
     double studyRating;
-    std::chrono::time_point<double> lastStudyTime;
+    time_point<system_clock, seconds> lastStudyTime;
 };
 
 #endif //LEARNING_IOS_WORD_H

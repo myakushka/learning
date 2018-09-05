@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9510922f-c3c1-4b75-8fc3-4c15908e611a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9510922f-c3c1-4b75-8fc3-4c15908e611a" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,26 +55,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="Cidr.FilesView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="efc3779f:XcodeRootNode" />
-              <item name="SwiftCpp" type="1d218c8b:XcodeProjectNode" />
-            </path>
-            <path>
-              <item name="" type="efc3779f:XcodeRootNode" />
-              <item name="SwiftCpp" type="1d218c8b:XcodeProjectNode" />
-              <item name="SwiftCpp" type="fcab9f18:XcodeViewNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -110,12 +89,12 @@
       <workItem from="1522677527778" duration="491000" />
       <workItem from="1522678180723" duration="148000" />
       <workItem from="1522678416138" duration="524000" />
-      <workItem from="1522679117762" duration="349000" />
+      <workItem from="1522679117762" duration="541000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1512000" />
+    <option name="totallyTimeSpent" value="1704000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -130,25 +109,25 @@
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="4" weight="0.24223275" />
-      <window_info active="true" anchor="right" id="TODO" order="11" visible="true" weight="0.32912058" />
+      <window_info anchor="right" id="TODO" order="11" weight="0.32912058" />
+      <window_info anchor="right" id="Messages" order="10" weight="0.32912058" />
       <window_info anchor="right" id="Palette&#9;" order="0" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" />
-      <window_info anchor="right" id="Version Control" order="7" weight="0.32912058" />
-      <window_info anchor="right" id="Structure" order="6" side_tool="true" weight="0.24960506" />
+      <window_info anchor="right" id="Run" order="12" weight="0.32912058" />
+      <window_info active="true" anchor="right" id="Version Control" order="7" visible="true" weight="0.32912058" />
       <window_info anchor="right" id="Terminal" order="9" weight="0.32964718" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="4" weight="0.24223275" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="right" id="Structure" order="6" side_tool="true" weight="0.24960506" />
       <window_info anchor="right" id="Debug" order="8" weight="0.39968404" />
       <window_info anchor="right" id="Favorites" order="5" side_tool="true" weight="0.32960597" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Messages" order="10" weight="0.32912058" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">

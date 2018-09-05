@@ -7,20 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30B0F1757647D57BA9F8A2B3 /* CppClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30B0FA3F54ACA5ED71945ABC /* CppClass.cpp */; };
-		30B0FCB571D70E8072B683FA /* CppInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30B0F6AB6601FB7EAF004880 /* CppInterface.cpp */; };
 		FE0A017E205E7BD90027117B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0A017D205E7BD90027117B /* AppDelegate.swift */; };
 		FE0A0180205E7BD90027117B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0A017F205E7BD90027117B /* ViewController.swift */; };
 		FE0A0182205E7BD90027117B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0A0181205E7BD90027117B /* Assets.xcassets */; };
 		FE0A0185205E7BD90027117B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0A0183205E7BD90027117B /* Main.storyboard */; };
 		FE0A0190205E844B0027117B /* CppWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE0A018F205E844B0027117B /* CppWrapper.mm */; };
+		FE48408D213FCF500003C2EB /* IdGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE48407F213FCF500003C2EB /* IdGenerator.cpp */; };
+		FE48408E213FCF500003C2EB /* LocaleConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE484082213FCF500003C2EB /* LocaleConverter.cpp */; };
+		FE48408F213FCF500003C2EB /* StudySessionModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE484083213FCF500003C2EB /* StudySessionModel.cpp */; };
+		FE484090213FCF500003C2EB /* Word.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE484085213FCF500003C2EB /* Word.cpp */; };
+		FE484091213FCF500003C2EB /* WordModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE48408A213FCF500003C2EB /* WordModel.cpp */; };
+		FE484092213FCF500003C2EB /* CppFacade.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE48408B213FCF500003C2EB /* CppFacade.cpp */; };
+		FE484093213FCF500003C2EB /* CppClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE48408C213FCF500003C2EB /* CppClass.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		30B0F6AB6601FB7EAF004880 /* CppInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CppInterface.cpp; sourceTree = "<group>"; };
-		30B0F7FBC30682A08B03AAF3 /* CppInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CppInterface.h; sourceTree = "<group>"; };
-		30B0FA3F54ACA5ED71945ABC /* CppClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CppClass.cpp; sourceTree = "<group>"; };
-		30B0FC580BD23C67BABD2C30 /* CppClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CppClass.h; sourceTree = "<group>"; };
 		FE0A017A205E7BD90027117B /* SwiftCpp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCpp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0A017D205E7BD90027117B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE0A017F205E7BD90027117B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,6 +32,22 @@
 		FE0A018D205E844A0027117B /* SwiftCpp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftCpp-Bridging-Header.h"; sourceTree = "<group>"; };
 		FE0A018E205E844B0027117B /* CppWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CppWrapper.h; sourceTree = "<group>"; };
 		FE0A018F205E844B0027117B /* CppWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CppWrapper.mm; sourceTree = "<group>"; };
+		FE48407B213FCF500003C2EB /* CppFacade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CppFacade.h; sourceTree = "<group>"; };
+		FE48407D213FCF500003C2EB /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		FE48407E213FCF500003C2EB /* IdGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdGenerator.h; sourceTree = "<group>"; };
+		FE48407F213FCF500003C2EB /* IdGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IdGenerator.cpp; sourceTree = "<group>"; };
+		FE484080213FCF500003C2EB /* CppClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CppClass.h; sourceTree = "<group>"; };
+		FE484082213FCF500003C2EB /* LocaleConverter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocaleConverter.cpp; sourceTree = "<group>"; };
+		FE484083213FCF500003C2EB /* StudySessionModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StudySessionModel.cpp; sourceTree = "<group>"; };
+		FE484084213FCF500003C2EB /* Locale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Locale.h; sourceTree = "<group>"; };
+		FE484085213FCF500003C2EB /* Word.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Word.cpp; sourceTree = "<group>"; };
+		FE484086213FCF500003C2EB /* StudySessionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudySessionModel.h; sourceTree = "<group>"; };
+		FE484087213FCF500003C2EB /* LocaleConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocaleConverter.h; sourceTree = "<group>"; };
+		FE484088213FCF500003C2EB /* WordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordModel.h; sourceTree = "<group>"; };
+		FE484089213FCF500003C2EB /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
+		FE48408A213FCF500003C2EB /* WordModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WordModel.cpp; sourceTree = "<group>"; };
+		FE48408B213FCF500003C2EB /* CppFacade.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CppFacade.cpp; sourceTree = "<group>"; };
+		FE48408C213FCF500003C2EB /* CppClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CppClass.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,23 +61,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		30B0FCB89F243E21EF414853 /* Cpp */ = {
-			isa = PBXGroup;
-			children = (
-				30B0F7FBC30682A08B03AAF3 /* CppInterface.h */,
-				30B0F6AB6601FB7EAF004880 /* CppInterface.cpp */,
-				30B0FA3F54ACA5ED71945ABC /* CppClass.cpp */,
-				30B0FC580BD23C67BABD2C30 /* CppClass.h */,
-			);
-			path = Cpp;
-			sourceTree = "<group>";
-		};
 		FE0A0171205E7BD90027117B = {
 			isa = PBXGroup;
 			children = (
+				FE48407A213FCF500003C2EB /* Cpp */,
 				FE0A017C205E7BD90027117B /* SwiftCpp */,
 				FE0A017B205E7BD90027117B /* Products */,
-				30B0FCB89F243E21EF414853 /* Cpp */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +92,45 @@
 				FE0A018D205E844A0027117B /* SwiftCpp-Bridging-Header.h */,
 			);
 			path = SwiftCpp;
+			sourceTree = "<group>";
+		};
+		FE48407A213FCF500003C2EB /* Cpp */ = {
+			isa = PBXGroup;
+			children = (
+				FE48407B213FCF500003C2EB /* CppFacade.h */,
+				FE48407C213FCF500003C2EB /* Config */,
+				FE484080213FCF500003C2EB /* CppClass.h */,
+				FE484081213FCF500003C2EB /* Model */,
+				FE48408B213FCF500003C2EB /* CppFacade.cpp */,
+				FE48408C213FCF500003C2EB /* CppClass.cpp */,
+			);
+			path = Cpp;
+			sourceTree = "<group>";
+		};
+		FE48407C213FCF500003C2EB /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				FE48407D213FCF500003C2EB /* Config.h */,
+				FE48407E213FCF500003C2EB /* IdGenerator.h */,
+				FE48407F213FCF500003C2EB /* IdGenerator.cpp */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		FE484081213FCF500003C2EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE484082213FCF500003C2EB /* LocaleConverter.cpp */,
+				FE484083213FCF500003C2EB /* StudySessionModel.cpp */,
+				FE484084213FCF500003C2EB /* Locale.h */,
+				FE484085213FCF500003C2EB /* Word.cpp */,
+				FE484086213FCF500003C2EB /* StudySessionModel.h */,
+				FE484087213FCF500003C2EB /* LocaleConverter.h */,
+				FE484088213FCF500003C2EB /* WordModel.h */,
+				FE484089213FCF500003C2EB /* Word.h */,
+				FE48408A213FCF500003C2EB /* WordModel.cpp */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,11 +205,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE484092213FCF500003C2EB /* CppFacade.cpp in Sources */,
+				FE48408D213FCF500003C2EB /* IdGenerator.cpp in Sources */,
 				FE0A0190205E844B0027117B /* CppWrapper.mm in Sources */,
 				FE0A0180205E7BD90027117B /* ViewController.swift in Sources */,
+				FE484093213FCF500003C2EB /* CppClass.cpp in Sources */,
+				FE484091213FCF500003C2EB /* WordModel.cpp in Sources */,
+				FE484090213FCF500003C2EB /* Word.cpp in Sources */,
+				FE48408E213FCF500003C2EB /* LocaleConverter.cpp in Sources */,
+				FE48408F213FCF500003C2EB /* StudySessionModel.cpp in Sources */,
 				FE0A017E205E7BD90027117B /* AppDelegate.swift in Sources */,
-				30B0FCB571D70E8072B683FA /* CppInterface.cpp in Sources */,
-				30B0F1757647D57BA9F8A2B3 /* CppClass.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

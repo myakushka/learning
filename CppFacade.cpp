@@ -40,3 +40,7 @@ int CppFacade::getNewWordsCount() const
 {
     return wordModel->getNeededToStudyWordCount();
 }
+
+std::string CppFacade::getStudySessionBeingWordOriginalString() const {
+    return "string";
+}
